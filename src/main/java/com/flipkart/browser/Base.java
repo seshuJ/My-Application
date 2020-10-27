@@ -68,9 +68,9 @@ public class Base {
 
 		/* driver.get("https://www.flipkart.com/"); */
 
-		/* driver.get("https://jqueryui.com/droppable/"); */
+		 driver.get("https://jqueryui.com/droppable/"); 
 
-		driver.get("http://demo.guru99.com/test/upload/"); 
+		/* driver.get("http://demo.guru99.com/test/upload/"); */
 		
 		windowMaximize();
 
