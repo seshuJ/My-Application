@@ -1,0 +1,21 @@
+# Created at 2020-10-24T23:37:17.065
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2020-10-24T23:37:22.369
+Unexpected IOException: 5,1,com.flipkart.Login,loginFlipkart(com.flipkart.Login),com.flipkart.Login,null,null
+
+
+# Created at 2020-10-24T23:37:22.971
+Unexpected IOException: 6,1,com.flipkart.Login,loginFlipkart(com.flipkart.Login),null,null,null
+
+
+# Created at 2020-10-24T23:37:24.045
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
